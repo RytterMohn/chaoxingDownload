@@ -1,10 +1,15 @@
 # chaoxingDownload 超星章节内ppt下载
 
 作者：西电网信院的废物rytter
+
 按下d可弹出该ppt的pdf网页，点击网页保存即可下载
+
 有问题联系ryttermohn@gmail.com
+
 本脚本可在 Edge浏览器101.0.1210.39 (正式版本)下运行
-脚本已经开源：https://github.com/RytterMohn/chaoxingDownload
+
+脚本发布页面：https://greasyfork.org/zh-CN/scripts/444744
+
 使用方法介绍：https://www.bilibili.com/video/BV19M411b7Co
 欢迎任何人来提交pr
 
