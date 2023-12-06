@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         超星学习通章节内ppt视频下载
 // @namespace    http://tampermonkey.net/
-// @version      1.09
+// @version      1.10
 // @description  按下D下载ppt,pdf,上课视频
 // @author       西电网信院的废物rytter & 西电网信院的废物B4a 
 // @match        http://*.chaoxing.com/mycourse/*
