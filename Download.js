@@ -120,11 +120,7 @@ function download(i) {
                 var fileExtension = json.filename ? json.filename.split('.').pop() : '';
                 fullFileName = json.filename;
                 if (json.pdf === undefined && fileExtension) {
-                    var prevTitle = document.querySelector('.prev_title').textContent;
-                    // fallback
-                    if (prevTitle === undefined) {
-                        prevTitle = 'download'
-                    }
+                    var prevTitle = document.querySelector('.prev_title')?.textContent || 'download';
                     fullFileName = prevTitle + '.' + fileExtension;
                 }
             } else {
