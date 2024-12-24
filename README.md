@@ -2,18 +2,21 @@
 
 作者：西电网信院的废物rytter
 
-按下d可弹出该ppt的pdf网页，点击网页保存即可下载
+按下d或者点击下载按钮可弹出该ppt的网页，点击网页保存即可下载
 
 有问题联系ryttermohn@gmail.com
 
 本脚本可在 Edge浏览器101.0.1210.39 (正式版本)下运行
 
-脚本发布页面：https://greasyfork.org/zh-CN/scripts/444744
+### 脚本发布页面：https://greasyfork.org/zh-CN/scripts/444744
 
-使用方法介绍：https://www.bilibili.com/video/BV19M411b7Co
+#### 下载量突破1W，谢谢大家的支持！
+
+### 使用方法介绍：https://www.bilibili.com/video/BV19M411b7Co
+
+各位也可以在bilibili上私信我，这个账号就是我的
+
 欢迎任何人来提交pr
-
-
 
 0.3版本：如果该页面内含有多个元素，第一次点击d下载第一个文件，第二次点击下载第二个，如果点击次数超过元素数量即从零开始
 0.4版本：添加更新地址
@@ -39,6 +42,12 @@
 1.08版本：终于发现这个问题了，就是对于ppt源文件，下载直接保存为ppt，而不是pdf，但是问题是这个超星的问题会显示文件不安全，大家直接设置一下直接下载就可以了
 
 1.09版本：由 [Guochengjie](https://github.com/guochengjie) 提交。将下载方式改为XHR下载，再也不用在弹出的页面手动下载了。加入进度条，当完成后直接在当前页面弹出下载。同时为学在西电优化，自动跳转https，兼容旧版超星。修改了非PDF的文件名获取方式。
+
+1.10版本：无
+
+1.11版本：无
+
+1.12版本：添加了按钮，可以根据个人选择下载ppt还是pdf格式的文件，同时仍然保留了按D下载的功能
 
 对于部分有下面这种tips的页面：
 <img width="100%" alt="tips" src="https://github.com/Guochengjie/chaoxingDownload/assets/13282380/f4bd7e98-3299-4d2d-840c-7aa218590fb7">
