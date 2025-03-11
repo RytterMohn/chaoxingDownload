@@ -4,14 +4,8 @@
 // @version      1.12
 // @description  按下D下载ppt,pdf,上课视频
 // @author       西电网信院的废物rytter & 西电网信院的废物B4a
-// @match        https://*/*/mycourse/studentstudy*
-// @match        http://*/*/mycourse/studentstudy*
-// @match        https://*/mycourse/studentstudy*
-// @match        http://*/mycourse/studentstudy*
-// @match        https://*/*/*/mycourse/studentstudy*
-// @match        http://*/*/*/mycourse/studentstudy*
-// @match        http://*/nodedetailcontroller/*
-// @match        https://*/nodedetailcontroller/*
+// @match        *://*/*mycourse/studentstudy*
+// @match        *://*/*nodedetailcontroller/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
 // @updateURL
