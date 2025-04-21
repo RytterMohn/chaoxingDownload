@@ -49,18 +49,21 @@
 
 1.12版本：添加了按钮，可以根据个人选择下载ppt还是pdf格式的文件，同时仍然保留了按D下载的功能
 
-对于部分有下面这种tips的页面：
-<img width="100%" alt="tips" src="https://github.com/Guochengjie/chaoxingDownload/assets/13282380/f4bd7e98-3299-4d2d-840c-7aa218590fb7">
+1.13版本：修改了B站一位同学的网页适配，同时修改按钮为 “下载ppt或视频”
 
-会直接复用，替换内容：
-<img width="100%" alt="tips-progress-bar" src="https://github.com/Guochengjie/chaoxingDownload/assets/13282380/4f6b51fb-aae2-443e-bcc7-ac1c61e1b188">
+1.14版本：修改了match，可以适配更多网站，感谢来自github用户由chitao1234 的PR
 
-否则会在右上角新建悬浮窗，显示下载进度。
-<img width="100%" alt="float-progress-bar" src="https://github.com/Guochengjie/chaoxingDownload/assets/13282380/6ddc722a-7fd2-4e6e-bfae-d2bee81ad72c">
+1.15版本：
+
+1. 首先修复页面多个资源的下载问题
+2. 聚合两个按钮为一个“下载资源”按钮，点击该按钮弹出模态框，用户可以自己选择需要下载的文件
+3. 美化按钮、进度条样式
+感谢来自github用户由jeanchristophe13v 的PR
+
 
 不知道为啥，超星的ppt没法直接下载，写了个脚本完成这个，希望和大家学习交流，技术交流，脚本建议或者bug反馈可以直接在这里留言，会自动有邮件提醒我，欢迎各位一起来学习讨论一起进步，其他Android或web技术也可以一起交流一下，本人技术很菜，希望大家不要嫌弃。
 
-因为超星用的是网页嵌套的方式，所以打开页面后不要直接点到ppt，不然就会定位到另外一个网页中，打开页面，直接按D，就可以下载
+因为超星用的是网页嵌套的方式，所以打开页面后不要直接点到ppt，不然就会定位到另外一个网页中，打开页面，点击按钮，就可以下载
 
 
 ps：超星我星星你个星星，前端写那么乱，找半天响应文件。
