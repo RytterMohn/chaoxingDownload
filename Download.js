@@ -1,16 +1,16 @@
 // ==UserScript==
-// @name         超星学习通章节内ppt视频下载
+// @name         超星学习通资源下载
 // @namespace    http://tampermonkey.net/
-// @version      1.12
-// @description  按下D下载ppt,pdf,上课视频
+// @version      1.15
+// @description  点击按钮弹出模态框选择下载PDF/课件/视频。按D键快速下载全部PDF。修复多选下载。
 // @author       西电网信院的废物rytter & 西电网信院的废物B4a
 // @match        *://*/*mycourse/studentstudy*
 // @match        *://*/*nodedetailcontroller/*
+// @match        *://*/*mycourse/teacherstudy*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-// @grant        none
-// @updateURL
-// @installURL
-// @downloadURL
+// @grant        GM_addStyle
+// @grant        GM_getValue
+// @grant        GM_setValue
 // @license      MIT
 // ==/UserScript==
 
